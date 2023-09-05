@@ -6,7 +6,7 @@ A PoC tool and documentation about the italian [Ecozona](https://www.ecozona.inf
 
 This page is only about **documenting** and **reporting** how weak and easy this system can be. This is not meant to be used actively and it's considered a [fellony](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.progressivo=0&art.idArticolo=2&art.versione=1&art.codiceRedazionale=001G0167&art.dataPubblicazioneGazzetta=2001-04-19&art.idGruppo=0&art.idSottoArticolo1=10&art.idSottoArticolo=1&art.flagTipoArticolo=0).
 
-### Docs and how to "crack the code"
+## Docs and how to "crack the code"
 
 The full and detailed explanation of how is it possible to modify the card content it's available in the [docs](https://github.com/sh4tteredd/EcoZonaCharge/blob/main/DOCS.md) page
 
