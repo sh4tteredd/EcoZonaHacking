@@ -8,7 +8,7 @@ This page is only about **documenting** and **reporting** how weak and easy this
 
 ### Docs and how to "crack the code"
 
-The full and detailed explanation of how is it possible to modify the card content it's available in the docs page
+The full and detailed explanation of how is it possible to modify the card content it's available in the [docs](https://github.com/sh4tteredd/EcoZonaCharge/blob/main/DOCS.md) page
 
 ## GUI (WIP)
 
