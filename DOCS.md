@@ -49,7 +49,7 @@ In this repo you WON'T find the key in order to avoid the misuse of this PoC.
 
 example of a dump with a balance 0,32€
 
-![example](https://github.com/sh4tteredd/EcoZonaCharge/assets/55893559/faa01a65-161d-460a-b77a-a81b7a7f2a25)
+![example](https://github.com/sh4tteredd/EcoZonaHacking/assets/55893559/f0352a0d-9e3b-4e95-806e-3f8a68ad794c)
 
 
 - write the dump with 
