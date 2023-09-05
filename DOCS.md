@@ -37,7 +37,7 @@ In this repo you WON'T find the key in order to avoid the misuse of this PoC.
 
 ### How to add money:
 
-- READ THE DISCLAIMER
+- READ THE [DISCLAIMER](https://github.com/sh4tteredd/EcoZonaCharge#big-disclaimer)
 
 - open the dump with an hex editor (ImHex for Windows, HexFiend for Mac or GHex for Linux)
 
