@@ -1,6 +1,6 @@
 # EcoZonaCharge
 
-A PoC tool and documentation about the italian [Ecozona](https://www.ecozona.info/) card 
+A PoC tool and documentation about the italian [Ecozona](https://www.ecozona.info/) card and how to crack it.
 
 ## BIG DISCLAIMER
 
