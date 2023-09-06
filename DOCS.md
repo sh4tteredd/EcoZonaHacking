@@ -7,7 +7,7 @@ If we try to analyze the card with nfc-list, we get
 ```
 nfc-list uses libnfc 1.8.0
 NFC device: ACS / ACR122U PICC Interface opened
-1 ISO14443A passive target(s) found`
+1 ISO14443A passive target(s) found
 ```
 
 This indicates that we a working with a Mifare 1k 13.56 Mhz NFC tag, also known as "Mifare Classic"
