@@ -19,7 +19,38 @@ class Widget(QWidget):
         self.ui.pushButton_6.clicked.connect(self.on_buttonSearch_click)
 
     def on_buttonAdd1_click(self):
-        print("Button Clicked!")
+        fileBin = dumpCard()
+        with open(fileBin, 'rb') as file:
+            byte_sequence = file.read()
+        start_index = 0x20
+        section = byte_sequence[start_index:]
+        hex_string = binascii.hexlify(section).decode()
+        first_8_characters = hex_string[:8]
+        print(first_8_characters)
+        result = first_8_characters.replace("0", "")
+        if len(result) == 0:
+            new_balance = "64 00 00 00"
+            with open(fileBin, 'rb+') as file:
+                file.seek(32)
+                file.write(bytes.fromhex(new_balance))
+                file.seek(40)
+                file.write(bytes.fromhex(new_balance))
+        else:
+            result_int = int(result, 16)
+            result_int += 100
+            result = hex(result_int)[2:]
+            new_balance = result
+            for i in range(8 - len(result)):
+                new_balance = new_balance + "0"
+            print(new_balance)
+            with open(fileBin, 'rb+') as file:
+                file.seek(32)
+                file.write(bytes.fromhex(new_balance))
+                file.seek(40)
+                file.write(bytes.fromhex(new_balance))
+        command = f'nfc-mfclassic w a u {fileBin} {fileBin}'
+        os.system(command)
+
 
     def on_buttonDump_click(self):
         current_time = int(time.time())
@@ -64,6 +95,7 @@ class Widget(QWidget):
             file.seek(40)
             file.write(bytes.fromhex("00 00 00 00"))
         command = f'nfc-mfclassic w a u {fileBin} {fileBin}'
+        os.system(command)
 
 
 if __name__ == "__main__":

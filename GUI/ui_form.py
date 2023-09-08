@@ -43,7 +43,10 @@ class Ui_Widget(object):
         self.pushButton_6.setGeometry(QRect(90, 10, 100, 32))
         self.label = QLabel(Widget)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(230, 20, 58, 16))
+        self.label.setGeometry(QRect(250, 20, 58, 16))
+        self.label_2 = QLabel(Widget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(330, 30, 58, 16))
 
         self.retranslateUi(Widget)
 
@@ -59,5 +62,6 @@ class Ui_Widget(object):
         self.pushButton_5.setText(QCoreApplication.translate("Widget", u"Dump card", None))
         self.pushButton_6.setText(QCoreApplication.translate("Widget", u"Ricerca card", None))
         self.label.setText("")
+        self.label_2.setText("")
     # retranslateUi
 
