@@ -64,7 +64,7 @@ nfc-mfclassic w a u dump.mfd dump.mfd
 
 - Remember that the digit of the byte MUST be everytime 8 for example if you change C8000000 to 1F4000000 that has 9 digits, the file won't work.
 
-- There is no check of the UID afaik, so you tecnically clone the original dump to any mifare card even if it doesn't support changeable UID.
+- There is no check of the UID afaik, so you can tecnically clone the original dump to any mifare card even if it doesn't support changeable UID.
 
 - I've a few ecozona cards and the all use the same A and B key.
 
